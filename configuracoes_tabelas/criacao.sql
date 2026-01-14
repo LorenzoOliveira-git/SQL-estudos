@@ -38,6 +38,6 @@ CREATE TABLE vendas (
     canal_venda VARCHAR(50),
     quantidade INTEGER,
     preco_unitario DECIMAL
-) 
+)
 
 COPY vendas FROM '/dados/vendas.csv' DELIMITER ',' CSV HEADER
